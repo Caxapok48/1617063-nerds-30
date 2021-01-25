@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Сайт дизайн студии"Нердс"</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <nav>
+        <a>
+          <img src="img/index-logo.svg" width="000" height="000" alt="Логотип дизайн студии «Нердс»">
+        </a>
+        <ul class="site-navigation">
+          <li><a href="index.html"></a>Студия</li>
+          <li><a href="blank.html"></a>Клиенты</li>
+          <li><a href="#"></a>Магазины</li>
+          <li><a href="blank.html"></a>Контакты</li>
+        </ul>
+        <a href="blank.html">Корзина</a>
+      </nav>>
+    </header>
+    <main>
+      <h1>Магазин готовых шаблонов</h1>
+
+      <section>
+        <h2>Фильтр товаров</h2>
+        <form method="get" action="#">
+          <fieldset>
+            <legend>Стоимость</legend>
+            <input type="range" min="0" max="15000" step="1000" value="10000">
+          </fieldset>
+          <fieldset>
+            <legend>Сетка</legend>
+              <ul>
+                <li>
+                  <input type="radio" name="grid" value="adaptive" id="filter-adaptive">
+                  <label for="filter-adaptive">Адаптивная</label>
+                </li>
+                <li>
+                  <input type="radio" name="grid" value="fixed" id="filter-fixed">
+                  <label for="filter-fixed">Фиксированная</label>
+                </li>
+                <li>
+                  <input type="radio" name="grid" value="rubber" id="filter-rubber">
+                  <label for="filter-rubber">Резиновая</label>
+                </li>
+              <ul>
+          </fieldset>
+          <fieldset>
+            <legend>Особенности</legend>
+              <ul>
+                <li>
+                  <input type="checkbox" name="slider" id="filter-slider">
+                  <label for="filter-slider">Слайдер</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="block-advantages" id="filter-block-advantages">
+                  <label for="block-advantages">Блок преимуществ</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="news" id="filter-news">
+                  <label for="filter-news">Новости</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="gallery" id="filter-gallery">
+                  <label for="filter-gallery">Галерея</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="basket" id="filter-basket">
+                  <label for="filter-basket">Корзина</label>
+                </li>
+              <ul>
+          </fieldset>
+          <button type="submit">Показать</button>
+        </form>
+      </section>
+      <section>
+      <h2>Примеры продукции</h2>
+      <p>Сортировать</p>
+      <p><label>по цене</label></p>
+      <p><label>по типу</label></p>
+      <p><label>по названию</label></p>
+        <p>
+          <a href="product1.html">
+          <img src="img/product-1.jpg" width="000" height="000" alt="SEDONA">
+        </p>
+      </a>
+      <p>SEDONA</p>
+      <p>Информационный сайт<br>
+         для туристов</p>
+      <p>
+        <button type="button">9 900</button>
+      </p>
+      <p>
+        <a href="product2.html">
+        <img src="img/product-2.jpg" width="000" height="000" alt="PINK">
+      </p>
+      <p>
+        <a href="product3.html">
+        <img src="img/product-3.jpg" width="000" height="000" alt="BARBERSHOP">
+      </p>
+      <p>
+        <a href="product4.html">
+        <img src="img/product-4.jpg" width="000" height="000" alt="MISHKA">
+      </p>
+      <p>
+        <a href="product5.html">
+        <img src="img/product-5.jpg" width="000" height="000" alt="A+">
+      </p>
+      <p>
+        <a href="product6.html">
+        <img src="img/product-6.jpg" width="000" height="000" alt="KVAST">
+      </p>
+
+      <ul>
+        <li><a>1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">СЛЕДУЮЩАЯ</a></li>
+      </ul>
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      <h2>Как нас найти</h2>
+      <p><b>NERDS DESIGN STUDIO</b><br>
+        <br>
+         191186, Санкт-Питербург,<br>
+        ул. Б. Конюшенная, д. 19/8
+        <br>
+        тел. +7(812)275-75-75
+      </p>
+      <button type="button">Напишите нам</button>
+      <img src="img-maps.jpg" width="000" height="000" alt="Местоположение на карте">
+      <ul>
+        <li><a href="#">Вконтакте</a></li>
+        <li><a href="#">Инстаграм</a></li>
+        <li><a href="#">Фейсбук</a></li>
+      </ul>
+      <p>Давайте дружить, это выгодно!</p>
+      <p>Скидка 10% для друзей из социальных сетей.</p>
+    </footer>
+    <section>
+      <h2>Напишите нам</h2>
+      <p>Ваше имя:</p>
+      <form action="#" method="get">
+        <label for="name-name">Имя Фамилия</label>
+        <input id="name-name" type="name" name="name" placeholder="Имя Фамилия">
+      </form>
+
+      <p>Ваш email:</p>
+      <form action="#" method="get">
+        <label for="login-login">Логин</label>
+        <input id="login-login" type="email" name="login" placeholder="email@example.com">
+      </form>
+
+      <p>Текст письма:</p>
+      <form action="#" method="get">
+        <label for="text-text">Текст письма</label>
+        <input id="text-text" type="text" name="text" placeholder="В свободной форме">
+
+        <button type="submit">Отправить</button>
+      </form>
+
+      <button type="button">Закрыть</button>
+    </section>
+
+    <section>
+      <h2>Как до нас добраться</h2>
+      <!-- Здесь будет карта -->
+      <button type="button">Закрыть</button>
+    </section>
+
+  </body>
+</html>
