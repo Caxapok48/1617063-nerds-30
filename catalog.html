@@ -23,7 +23,7 @@
       <h1>Магазин готовых шаблонов</h1>
       <section>
         <h2>Фильтр товаров</h2>
-        <form method="get" action="#">
+        <form method="get" action="https://echo.htmlacademy.ru/">
           <fieldset>
             <legend>Стоимость</legend>
             <input type="range" min="0" max="15000" step="1000" value="10000">
@@ -32,15 +32,15 @@
             <legend>Сетка</legend>
               <ul>
                 <li>
-                  <input type="radio" name="grid" value="adaptive" id="filter-adaptive">
+                  <input type="radio" name="grid" value="adaptive" id="filter-adaptive" checked>
                   <label for="filter-adaptive">Адаптивная</label>
                 </li>
                 <li>
-                  <input type="radio" name="grid" value="fixed" id="filter-fixed">
+                  <input type="radio" name="grid" value="fixed" id="filter-fixed" checked>
                   <label for="filter-fixed">Фиксированная</label>
                 </li>
                 <li>
-                  <input type="radio" name="grid" value="rubber" id="filter-rubber">
+                  <input type="radio" name="grid" value="rubber" id="filter-rubber" checked>
                   <label for="filter-rubber">Резиновая</label>
                 </li>
               </ul>
@@ -53,7 +53,7 @@
                   <label for="filter-slider">Слайдер</label>
                 </li>
                 <li>
-                  <input type="checkbox" name="bloc-kadvantages" id="filter-block-advantages">
+                  <input type="checkbox" name="block-advantages" id="filter-block-advantages">
                   <label for="filter-block-advantages">Блок преимуществ</label>
                 </li>
                 <li>
@@ -73,54 +73,68 @@
           <button type="submit">Показать</button>
         </form>
       </section>
-      <section>
         <h2>Примеры продукции</h2>
         <p>Сортировать</p>
-        <p><label>по цене</label></p>
-        <p><label>по типу</label></p>
-        <p><label>по названию</label></p>
+        <div>
+          <ul>
+            <a><li><label>по цене</label></li></a>
+            <a><li><label>по типу</label></li></a>
+            <a><li><label>по названию</label></li></a>
+            <a><li><label>По убыванию</label></li></a>
+            <a><li><label>По возрастанию</label></li></a>
+          </ul>
+        </div>
+        <article>
           <p>
             <a href="product1.html">
             <img src="img/product-1.jpg" width="000" height="000" alt="SEDONA">
             </a>
           </p>
-        <p>SEDONA</p>
-        <p>Информационный сайт для туристов</p>
-        <p>
+         <h3>SEDONA</h3>
+         <p>Информационный сайт для туристов</p>
           <button type="button">9 900</button>
-        </p>
-        <p>
-          <a href="product2.html">
-          <img src="img/product-2.jpg" width="000" height="000" alt="PINK">
-          </a>
-        </p>
-        <p>
-          <a href="product3.html">
-          <img src="img/product-3.jpg" width="000" height="000" alt="BARBERSHOP">
-          </a>
-        </p>
-        <p>
-          <a href="product4.html">
-          <img src="img/product-4.jpg" width="000" height="000" alt="MISHKA">
-          </a>
-        </p>
-        <p>
-          <a href="product5.html">
-          <img src="img/product-5.jpg" width="000" height="000" alt="A+">
-          </a>
-        </p>
-        <p>
-          <a href="product6.html">
-          <img src="img/product-6.jpg" width="000" height="000" alt="KVAST">
-          </a>
-        </p>
+        </article>
+        <article>
+          <p>
+            <a href="product2.html">
+            <img src="img/product-2.jpg" width="000" height="000" alt="PINK">
+            </a>
+          </p>
+        </article>
+        <article>
+          <p>
+            <a href="product3.html">
+            <img src="img/product-3.jpg" width="000" height="000" alt="BARBERSHOP">
+            </a>
+          </p>
+        </article>
+        <article>
+          <p>
+            <a href="product4.html">
+            <img src="img/product-4.jpg" width="000" height="000" alt="MISHKA">
+            </a>
+          </p>
+        </article>
+        <article>
+          <p>
+            <a href="product5.html">
+            <img src="img/product-5.jpg" width="000" height="000" alt="A+">
+            </a>
+          </p>
+        </article>
+        <article>
+          <p>
+            <a href="product6.html">
+            <img src="img/product-6.jpg" width="000" height="000" alt="KVAST">
+            </a>
+          </p>
+        </article>
         <ul>
           <li><a>1</a></li>
           <li><a href="#">2</a></li>
           <li><a href="#">3</a></li>
           <li><a href="#">СЛЕДУЮЩАЯ</a></li>
         </ul>
-      </section>
     </main>
     <footer class="main-footer">
       <div>
