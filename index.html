@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
     <title>Сайт дизайн студии"Нердс"</title>
@@ -7,9 +7,10 @@
   </head>
   <body>
     <header class="main-header">
-      <nav>
-        <a>
-          <img src="img/index-logo.svg" width="000" height="000" alt="Логотип дизайн студии «Нердс»">
+      <nav class="main-navigation">
+        <a class="main-header-logo">
+          <img src="img/index-logo.svg" width="159,87px" height="65,02px"
+          alt="Логотип дизайн студии «Нердс»">
         </a>
         <ul class="site-navigation">
           <li><a href="#">Студия</a></li>
@@ -17,118 +18,151 @@
           <li><a href="catalog.html">Магазины</a></li>
           <li><a href="blank.html">Контакты</a></li>
         </ul>
-        <a href="blank.html">Корзина</a>
+        <a href="blank.html">
+          <img src="img/icons/cart-icon.svg" width="15" height="11" alt="Корзина">
+        </a>
+        <a class="cart-link" href="blank.html">Корзина</a>
       </nav>>
     </header>
-      <main>
+
+      <main class="container">
+
         <h1>Интернет магазин «Nerds»</h1>
+
         <section class="slider">
           <section class="slide">
             <h3>Долго, дорого, скурпулезно.</h3>
             <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
-            <a href="blank.html">Узнать больше</a>
+            <a class="button" href="blank.html">Узнать больше</a>
           </section>
         </section>
         <section class="services">
+
           <h2>Услуги</h2>
             <div>
              <h3>Веб-сайты</h3>
-             <img src="img-banner1.jpg" width="000" height="000" alt="Баннер1">
+             <img src="img/illustration-1.jpg" width="300" height="146" alt="Баннер1">
              <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-             <button type="button">Заказать</button>
+             <button class="button-1" type="button">Заказать</button>
             </div>
             <div>
              <h3>Приложения</h3>
-             <img src="img-banner2.jpg" width="000" height="000" alt="Баннер2">
+             <img src="img/illustration-2.jpg" width="300" height="146" alt="Баннер2">
              <p>Покорите топ-10 приложений в AppStore и Google Play</p>
-             <button type="button">Заказать</button>
+             <button class="button-2" type="button">Заказать</button>
             </div>
             <div>
              <h3>Презентации</h3>
-             <img src="img-banner3.jpg" width="000" height="000" alt="Баннер3">
+             <img src="img/illustration-3.jpg" width="300" height="146" alt="Баннер3">
              <p>Вы даже не подозреваете, насколько вы изумительны!</p>
-             <button type="button">Заказать</button>
+             <button class="button-3" type="button">Заказать</button>
             </div>
 
         </section>
+
         <section class="about">
-          <h2>О нас</h2>
-          <p><b>Мы-маленькая, но гордая дизайн-студия из Краснодара.</b></p>
-          <p> Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук как роботы.</p>
-          <h3>Выполняем заказы на разработку:</h3>
-          <ul>
-            <li>Веб-сайтов любой сложности</li>
-            <li>Мобильных приложений для IOS и Abdroid</li>
-            <li>Слайд шоу и видео для корпоративныз презентаций</li>
-          </ul>
-          <img src="img-logo.jpg" width="000" height="000" alt="Логтип Нердс">
-          <p>С 2004 года любим точность во всем:</p>
-          <table>
-            <tr>
-              <th>Уровень самоотдачи</th>
-              <th>Соблюдение сроков</th>
-              <th>Минимальная предоплата</th>
-            </tr>
-            <tr>
-              <td><b>146<sup>%</sup></b></td>
-              <td><b>100<sup>%</sup></b></td>
-              <td><b>50<sup>%</sup></b></td>
-            </tr>
-          </table>
+          <div class="about-left">
+
+            <h2>О нас</h2>
+            <p><b>Мы-маленькая, но гордая дизайн-студия из Краснодара.</b></p>
+            <p> Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук как роботы.</p>
+            <h3>Выполняем заказы на разработку:</h3>
+            <ul class="about-list">
+              <li class="about-item">Веб-сайтов любой сложности</li>
+              <li class="about-item">Мобильных приложений для IOS и Abdroid</li>
+              <li class="about-item">Слайд шоу и видео для корпоративныз презентаций</li>
+            </ul>
+          </div>
+          <div class="about-right">
+            <img src="img-logo.jpg" width="360" height="208" alt="Логтип Нердс">
+            <p>С 2004 года любим точность во всем:</p>
+            <table>
+              <tr class="parameter">
+                <th>Уровень самоотдачи</th>
+                <th>Соблюдение сроков</th>
+                <th>Минимальная предоплата</th>
+              </tr>
+              <tr class="meaning">
+                <td><b>146<sup>%</sup></b></td>
+                <td><b>100<sup>%</sup></b></td>
+                <td><b>50<sup>%</sup></b></td>
+              </tr>
+            </table>
+          </div>
         </section>
+
         <section class="companies">
           <h2>Производители</h2>
           <a href="https://htmlacademy.ru/intensive/htmlcss">
-           <img src="img-logo-academy.jpg" width="000" height="000" alt="Логотип HTML-Академии">
+           <img src="img/htmlacademylogo.png" width="000" height="000" alt="Логотип HTML-Академии">
           </a>
           <a href="#">
-            <img src="img-logo-barbershop.jpg" width="000" height="000" alt="Логотип барбершоп Бородинский">
+            <img src="img/barbershoplogo.png" width="000" height="000" alt="Логотип барбершоп Бородинский">
           </a>
           <a href="#">
-            <img src="img-logo-pink.jpg" width="000" height="000" alt="Логотип Очки">
+            <img src="img/pinklogo.png" width="000" height="000" alt="Логотип Очки">
           </a>
           <a href="#">
-            <img src="img-logo-mishka.jpg" width="000" height="000" alt="Логотип Мишка">
+            <img src="img/mishkalogo.png" width="000" height="000" alt="Логотип Мишка">
           </a>
         </section>
       </main>
     <footer class="main-footer">
       <div>
         <section>
-          <h3>NERDS DESIGN STUDIO</h3>
-          <p>
+          <h3 class="point-name">NERDS DESIGN STUDIO</h3>
+          <p class="contacts">
             191186, Санкт-Петербург,
             ул. Б. Конюшенная, д. 19/8
           </p>
-          <p>
+          <p class="contacts">
             тел. +7(812)275-75-75
           </p>
-          <button type="button">Напишите нам</button>
+          <button class="button" type="button">Напишите нам</button>
         </section>
       </div>
       <ul>
-        <li><a href="#">Вконтакте</a></li>
-        <li><a href="#">Инстаграм</a></li>
-        <li><a href="#">Фейсбук</a></li>
+        <li>
+          <a href="#"><img src="img/icons/icon-vk.svg" width="26,01px" height="15px" alt="Вконтакте">
+          </a>
+        </li>
+        <li>
+          <a href="#"><img src="img/icons/icon-facebook.svg" width="12px" height="22px" alt="Фейсбук">
+          </a>
+        </li>
+        <li>
+          <a href="#"><img src="img/icons/icon-insta.svg" width="21px" height="21px" alt="Инстаграмм">
+          </a>
+        </li>
       </ul>
-      <p>Давайте дружить, это выгодно!</p>
-      <p>Скидка 10% для друзей из социальных сетей.</p>
+      <p class="be-friends">Давайте дружить, это выгодно!</p>
+      <p class="friends">Скидка 10% для друзей из социальных сетей.</p>
     </footer>
-    <section>
-      <h2>Напишите нам</h2>
-      <form action="#" method="get">
-        <label for="name">Имя Фамилия</label>
-        <input id="name" type="text" name="name" placeholder="Имя Фамилия">
+    <section class="connection">
+      <h2 class="connection-tittle">Напишите нам</h2>
+      <form class="connection-form" action=""https://echo.htmlacademy.ru"" method="get">
 
-        <label for="login">Логин</label>
-        <input id="login" type="email" name="login" placeholder="email@example.com">
+        <p class="connection-item">
+          <label for="connection-name">Имя Фамилия</label>
+          <input id="connection-name" type="text" name="name" placeholder="Имя Фамилия">
+        </p>
 
-        <label for="text">Текст письма</label>
-        <textarea id="text" type="text" name="text" placeholder="В свободной форме">
-        </textarea>
-        <button type="submit">Отправить</button>
+        <p class="connection-item">
+          <label for="connection-login">Логин</label>
+          <input id="connection-login" type="email" name="login" placeholder="email@example.com">
+        </p>
+
+        <p class="connection-item">
+          <label for="connection-text">Текст письма</label>
+          <textarea id="connection-text" type="text" name="text" placeholder="В свободной форме">
+          </textarea>
+        </p>
+
+        <button class="button-4" type="submit">Отправить</button>
       </form>
-      <button type="button">Закрыть</button>
+      <button type="button">
+        <img src="img/icon-close.svg" width="21" height="21" alt="Закрыть">
+      </button>
     </section>
 
     <section>
