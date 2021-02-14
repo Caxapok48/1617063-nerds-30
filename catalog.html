@@ -4,12 +4,16 @@
     <meta charset="utf-8">
     <title>Сайт дизайн студии"Нердс"</title>
     <link rel="icon" href="favicon/favicon.ico">
+    <link rel = "stylesheet" href = "https://fonts.gstatic.com">
+    <link href = "https://fonts.googleapis.com/css2? family = Roboto & display = swap" rel = "таблица стилей ">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
       <nav class="main-navigation">
         <a class="main-header-logo">
-          <img src="img/index-logo.svg" width="159,87px" height="65,02px"
+          <img src="img/index-logo.svg" width="160px" height="67px"
           alt="Логотип дизайн студии «Нердс»">
         </a>
         <ul class="site-navigation">
@@ -31,49 +35,49 @@
       <section>
         <h2>Фильтр товаров</h2>
         <form method="get" action="https://echo.htmlacademy.ru/">
-          <fieldset class="fieldset-variator">
+          <fieldset class="catalog-form-headline">
             <legend class="legend-feature">Стоимость</legend>
             <input type="range" min="0" max="15000" step="1000" value="10000">
           </fieldset>
-          <fieldset>
+          <fieldset class="catalog-form-radio">
             <legend class="legend-feature">Сетка</legend>
               <ul>
                 <li>
                   <input type="radio" name="grid" value="adaptive" id="filter-adaptive" checked>
-                  <label class="legend-values" for="filter-adaptive">Адаптивная</label>
+                  <label class="radio-label" for="filter-adaptive">Адаптивная</label>
                 </li>
                 <li>
                   <input type="radio" name="grid" value="fixed" id="filter-fixed">
-                  <label class="legend-values" for="filter-fixed">Фиксированная</label>
+                  <label class="radio-label" for="filter-fixed">Фиксированная</label>
                 </li>
                 <li>
                   <input type="radio" name="grid" value="rubber" id="filter-rubber">
-                  <label class="legend-values" for="filter-rubber">Резиновая</label>
+                  <label class="radio-label" for="filter-rubber">Резиновая</label>
                 </li>
               </ul>
           </fieldset>
-          <fieldset>
+          <fieldset class="catalog-form-checkbox">
             <legend class="legend-feature">Особенности</legend>
               <ul>
                 <li>
                   <input type="checkbox" name="slider" id="filter-slider">
-                  <label class="legend-values" for="filter-slider">Слайдер</label>
+                  <label class="checkbox-label" for="filter-slider">Слайдер</label>
                 </li>
                 <li>
                   <input type="checkbox" name="block-advantages" id="filter-block-advantages">
-                  <label class="legend-values" for="filter-block-advantages">Блок преимуществ</label>
+                  <label class="checkbox-label" for="filter-block-advantages">Блок преимуществ</label>
                 </li>
                 <li>
                   <input type="checkbox" name="news" id="filter-news">
-                  <label class="legend-values" for="filter-news">Новости</label>
+                  <label class="checkbox-label" for="filter-news">Новости</label>
                 </li>
                 <li>
                   <input type="checkbox" name="gallery" id="filter-gallery">
-                  <label class="legend-values" for="filter-gallery">Галерея</label>
+                  <label class="checkbox-label" for="filter-gallery">Галерея</label>
                 </li>
                 <li>
                   <input type="checkbox" name="basket" id="filter-basket">
-                  <label class="legend-values" for="filter-basket">Корзина</label>
+                  <label class="checkbox-label" for="filter-basket">Корзина</label>
                 </li>
               </ul>
           </fieldset>
@@ -83,18 +87,18 @@
         <h2>Примеры продукции</h2>
         <div>
           <p class="legend-feature">Сортировать</p>
-            <ul class="legend-list">
-              <li class="legend-item"><a>по цене</a></li>
-              <li class="legend-item"><a>по типу</a></li>
-              <li class="legend-item"><a>по названию</a></li>
+            <ul class="filter-list">
+              <li class="filter-item"><a>по цене</a></li>
+              <li class="filter-item"><a>по типу</a></li>
+              <li class="filter-item"><a>по названию</a></li>
             </ul>
-            <ul class="legend-list">
-              <li class="legend-item"><a>По убыванию</a></li>
-              <li class="legend-item"><a>По возрастанию</a></li>
+            <ul class="filter-list">
+              <li class="filter-item"><a>По убыванию</a></li>
+              <li class="filter-item"><a>По возрастанию</a></li>
             </ul>
           </div>
 
-        <article class="preview">
+        <article class="product-card">
             <img src="img/sedona.jpg" width="358" height="578" alt="SEDONA">
             <a href="product1.html">
               <h3>SEDONA</h3>
@@ -102,7 +106,7 @@
          <p>Информационный сайт для туристов</p>
           <button class="button" type="button">9 900</button>
         </article>
-        <article class="preview">
+        <article class="product-card">
             <img src="img/pink.jpg" width="358" height="578" alt="PINK">
             <a href="product2.html">
             <h3>PINK</h3>
@@ -110,7 +114,7 @@
             <p>Магазин розовых очков</p>
             <button class="button" type="button">цена</button>
         </article>
-        <article class="preview">
+        <article class="product-card">
           <img src="img/barbershop.jpg" width="358" height="578" alt="BARBERSHOP">
            <a href="product3.html">
            <h3>BARBERSHOP</h3>
@@ -118,7 +122,7 @@
            <p>Барбершоп "БОРОДИНСКИЙ</p>
            <button class="button" type="button">цена</button>
         </article>
-        <article class="preview">
+        <article class="product-card">
           <img src="img/mishka.jpg" width="358" height="578" alt="MISHKA">
           <a href="product4.html">
           <h3>MISHKA</h3>
@@ -126,7 +130,7 @@
           <p>Магазин вязаных игрушек</p>
           <button class="button" type="button">цена</button>
         </article>
-        <article class="preview">
+        <article class="product-card">
            <img src="img/aplus.jpg" width="358" height="578" alt="А+">
            <a href="product5.html">
            <h3>APLUS</h3>
@@ -134,7 +138,7 @@
            <p>Онлайн обучение</p>
            <button class="button" type="button">цена</button>
          </article>
-         <article class="preview">
+         <article class="product-card">
            <img src="img/kvast.jpg" width="358" height="578" alt="KVAST">
            <a href="product6.html">
            <h3>KVAST</h3>
@@ -166,7 +170,7 @@
       <ul>
         <li>
           <a class="social-button" href="#">
-            <img src="img/icons/icon-vk.svg" width="26,01px" height="15px" alt="Вконтакте">
+            <img src="img/icons/icon-vk.svg" width="27px" height="15px" alt="Вконтакте">
           </a>
         </li>
         <li>
@@ -183,9 +187,9 @@
       <p class="be-friends">Давайте дружить, это выгодно!</p>
       <p class="friends">Скидка 10% для друзей из социальных сетей.</p>
     </footer>
-    <section class="modal-connection">
-      <h2 class="connection-tittle">Напишите нам</h2>
-      <form class="connection-form" action=""https://echo.htmlacademy.ru"" method="get">
+    <section class="modal modal-connection">
+      <h2 class="connection-title">Напишите нам</h2>
+      <form class="connection-form" action="https://echo.htmlacademy.ru" method="get">
 
         <p class="connection-item">
           <label for="connection-name">Имя Фамилия</label>
@@ -199,11 +203,11 @@
 
         <p class="connection-item">
           <label for="connection-text">Текст письма</label>
-          <textarea id="connection-text" type="text" name="text" placeholder="В свободной форме">
+          <textarea id="connection-text" name="text" placeholder="В свободной форме">
           </textarea>
         </p>
 
-        <button class="button-4" type="submit">Отправить</button>
+        <button class="connection-form-button" type="submit">Отправить</button>
       </form>
       <button class="modal-close" type="button">
         <img src="img/icon-close.svg" width="21" height="21" alt="Закрыть">

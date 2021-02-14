@@ -109,48 +109,43 @@
 .button {
   width: 240px;
   height: 50px;
-  left: 140px;
-  top: 415px;
+
 
   background: var(--basic-button-line);
   border-radius: 3px;
 }
 
-.button-1 {
+.button-red {
   width: 160px;
   height: 50px;
-  left: 140px;
-  top: 922px;
+
 
   background: var(--basic-button-line)
   border-radius: 3px;
 }
 
-.button-2 {
+.button-green {
   width: 160px;
   height: 50px;
-  left: 540px;
-  top: 922px;
+
 
   background: var(--button-green)
   border-radius: 3px;
 }
 
-.button-3 {
+.button-yeloow {
   width: 160px;
   height: 50px;
-  left: 940px;
-  top: 922px;
+
 
   background: var(--button-yeloow)
   border-radius: 3px;
 }
 
-.button-4 {
+.connection-form-button {
   width: 259px;
   height: 50px;
-  left: 341px;
-  top: 2162px;
+
 
   background: var(--basic-button-line)
   border-radius: 3px;
@@ -266,7 +261,7 @@
   color: var(--basic-black);
 }
 
-input, textarea {
+.connection-item {
   font-weight: normal;
   font-size: 16px;
   line-height: 18px;
