@@ -16,9 +16,9 @@
   --green-button-hover: #00BC6C;
   --green-button-focus: #00AA62;
 
-  --button-yeloow: #EFC849;
-  --yeloow-button-hover: #EAB534;
-  --yeloow-button-focus: #E5A722;
+  --button-yellow: #EFC849;
+  --yellow-button-hover: #EAB534;
+  --yellow-button-focus: #E5A722;
 
   --social-color: #E1E1E1;
   --vector-black: #231F20;
@@ -110,45 +110,27 @@
   width: 240px;
   height: 50px;
 
-
   background: var(--basic-button-line);
   border-radius: 3px;
 }
 
 .button-red {
   width: 160px;
-  height: 50px;
-
-
-  background: var(--basic-button-line)
-  border-radius: 3px;
-}
 
 .button-green {
   width: 160px;
-  height: 50px;
-
-
-  background: var(--button-green)
-  border-radius: 3px;
+  background: var(--button-green);
 }
 
-.button-yeloow {
+.button-yellow {
   width: 160px;
-  height: 50px;
-
-
-  background: var(--button-yeloow)
-  border-radius: 3px;
+  background: var(--button-yeloow);
 }
 
 .connection-form-button {
   width: 259px;
-  height: 50px;
 
-
-  background: var(--basic-button-line)
-  border-radius: 3px;
+  background: var(--basic-button-line);
 }
 
 .social-button {
@@ -214,7 +196,7 @@
 }
 
 .info {
-  background: var(--basic-white)
+  background: var(--basic-white);
 }
 
 .point-name {
@@ -249,7 +231,7 @@
 }
 
 
-.connection-tittle {
+.connection-title {
   font-size: 45px;
   line-height: 53px;
   color: var(--basic-black);
