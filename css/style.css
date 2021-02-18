@@ -124,7 +124,7 @@
 
 .button-yellow {
   width: 160px;
-  background: var(--button-yeloow);
+  background: var(--button-yellow);
 }
 
 .connection-form-button {
@@ -137,6 +137,26 @@
   background: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
 }
 
+.form-button {
+
+  width: 260px;
+  background: var(--blackgroud-head-line);
+}
+
+.page-item {
+  width: 50px;
+  background: var(--blackgroud-head-line);
+}
+
+.page-item-next {
+  width: 260px;
+  background: var(--blackgroud-head-line);
+
+}
+
+.button-card {
+  width: 200px;
+}
 /* Services */
 
 .services h3{
@@ -249,3 +269,43 @@
   line-height: 18px;
   color: var(--friends-grey);
 }
+
+/* Catalog */
+
+.container h1 {
+
+  font-weight: 500;
+  background-color: var(--blackgroud-head-line);
+}
+
+.catalog-form-fieldset {
+
+  font-weight: normal;
+  color: var(--basic-dark-grey);
+
+}
+
+.catalog-form-headline {
+  font-weight: 700;
+}
+
+.filter-list {
+  font-weight: normal;
+  color: var(--basic-dark-grey);
+}
+
+.product-card h3 p  {
+  width: 360px;
+  height: 231px;
+  background-color: var(--blackgroud-head-line);
+}
+
+.product-card h3 {
+  font-weight: 700;
+}
+
+.product-card p {
+  font-weight: normal;
+  color: var(--basic-info-grey);
+}
+
