@@ -150,6 +150,9 @@
   background-color: var(--blackgroud-head-line);
 }
 
+.page-list {
+  list-style-type: none;
+}
 
 .page-item {
   width: 50px;
@@ -300,6 +303,7 @@
 
 .catalog-form-headline {
   font-weight: 700;
+  list-style-type: none;
 }
 
 .filter-list {
