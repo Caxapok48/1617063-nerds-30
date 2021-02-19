@@ -40,7 +40,7 @@
     font-weight: 700;
     color: var(--basic-black);
     text-transform: uppercase;
-    background-color: var(--background-body);
+    background-color: var(--basic-white);
     background-position: top center;
     background-repeat: no-repeat;
 
@@ -143,15 +143,24 @@
   background: var(--blackgroud-head-line);
 }
 
+.page-list a:hover,
+.page-list a:focus,
+.page-list a:hover,
+.page-list a:focus {
+  background-color: var(--blackgroud-head-line);
+}
+
+
 .page-item {
   width: 50px;
   background: var(--blackgroud-head-line);
 }
+.page-item-active {
+  background: var(--basic-white);
+}
 
 .page-item-next {
   width: 260px;
-  background: var(--blackgroud-head-line);
-
 }
 
 .button-card {
@@ -272,6 +281,10 @@
 
 /* Catalog */
 
+.container {
+  list-style: none;
+}
+
 .container h1 {
 
   font-weight: 500;
@@ -291,10 +304,23 @@
 
 .filter-list {
   font-weight: normal;
-  color: var(--basic-dark-grey);
 }
 
-.product-card h3 p  {
+.filter-item {
+  color: var(--vector-grey);
+}
+
+.filter-item-active {
+  color: var(--vector-black);
+}
+
+.product-card h3  {
+  width: 360px;
+  height: 231px;
+  background-color: var(--blackgroud-head-line);
+}
+
+.product-card p  {
   width: 360px;
   height: 231px;
   background-color: var(--blackgroud-head-line);
@@ -309,3 +335,9 @@
   color: var(--basic-info-grey);
 }
 
+.product-card a:hover,
+.product-card a:focus,
+.product-card a:hover,
+.product-card a:focus {
+  background-color: var(--blackgroud-head-line);
+}
