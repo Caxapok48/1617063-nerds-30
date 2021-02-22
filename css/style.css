@@ -342,3 +342,7 @@
   height: 231px;
   background-color: var(--blackgroud-head-line);
 }
+
+.cart-link {
+  list-style: none;
+}
