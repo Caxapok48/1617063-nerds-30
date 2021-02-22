@@ -116,6 +116,7 @@
 
 .button-red {
   width: 160px;
+}
 
 .button-green {
   width: 160px;
@@ -320,21 +321,11 @@
 
 .product-card h3  {
   width: 360px;
-  height: 231px;
-  background-color: var(--blackgroud-head-line);
+  font-weight: 700;
 }
 
 .product-card p  {
   width: 360px;
-  height: 231px;
-  background-color: var(--blackgroud-head-line);
-}
-
-.product-card h3 {
-  font-weight: 700;
-}
-
-.product-card p {
   font-weight: normal;
   color: var(--basic-info-grey);
 }
@@ -343,5 +334,11 @@
 .product-card a:focus,
 .product-card a:hover,
 .product-card a:focus {
+  background-color: var(--blackgroud-head-line);
+}
+
+.product-banner {
+  width: 360px;
+  height: 231px;
   background-color: var(--blackgroud-head-line);
 }
