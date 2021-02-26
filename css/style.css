@@ -44,7 +44,16 @@
     background-position: top center;
     background-repeat: no-repeat;
 
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+    align-content: start;
   }
+
+  .main-header {
+    margin-bottom: 0;
+  }
+
 
   a {
     text-decoration: none;
@@ -60,11 +69,20 @@
   }
 
   .main-navigation {
+    display: grid;
+    margin: 0 auto;
+    padding: 0 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 30px;
     color: var(--basic-black);
     background-color: var(--blackgroud-head-line);
+  }
+
+  .main-navigation-wrapper {
+    display: grid;
+    grid-template-columns: min-content 1fr min-content;
+
   }
 
   .site-navigation {
@@ -96,6 +114,7 @@
 
 
 .slide h3 {
+  margin: 0;
   font-weight: 500;
   font-size: 55px;
   line-height: 55px;
@@ -150,8 +169,6 @@
 }
 
 .page-list a:hover,
-.page-list a:focus,
-.page-list a:hover,
 .page-list a:focus {
   background-color: var(--blackgroud-head-line);
 }
@@ -198,6 +215,15 @@
 }
 /* Services */
 
+.services {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 80px 0 80px 0;
+  padding: 0;
+  list-style: none;
+  column-gap: 100px;
+}
+
 .services h3{
   font-weight: 700px;
   font-size: 24px;
@@ -210,6 +236,14 @@
   font-size: 16px;
   line-height: 24px;
   color: var(--basic-dark-grey);
+}
+
+.about {
+
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+
+
 }
 
 .about h3 {
@@ -323,11 +357,12 @@
 /* Catalog */
 
 .container {
+  margin: 0 auto;
   list-style: none;
 }
 
 .container h1 {
-
+  margin: 0;
   font-weight: 500;
   font-size: 55px;
   line-height: 55px;
@@ -398,8 +433,6 @@
 }
 
 .product-card a:hover,
-.product-card a:focus,
-.product-card a:hover,
 .product-card a:focus {
   background-color: var(--blackgroud-head-line);
 }
@@ -413,3 +446,8 @@
 .cart-link {
   color: var(--basic-black);
 }
+
+.page {
+  height: 100%;
+}
+
