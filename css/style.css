@@ -4,7 +4,7 @@
 :root {
   --basic-black: #000000;
   --basic-white: #FFFFFF;
-  --blackgroud-head-line: #EEEEEE;
+  --backgroud-head-line: #EEEEEE;
   --basic-dark-grey: #283136;
   --background-body: #888888;
 
@@ -69,19 +69,20 @@
   }
 
   .main-navigation {
-    display: grid;
     margin: 0 auto;
-    padding: 0 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 30px;
     color: var(--basic-black);
-    background-color: var(--blackgroud-head-line);
+    background-color: var(--backgroud-head-line);
   }
 
   .main-navigation-wrapper {
     display: grid;
     grid-template-columns: min-content 1fr min-content;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1160px;
 
   }
 
@@ -89,7 +90,7 @@
     list-style: none;
   }
   .site-navigation-current a:not([href]) {
-    background-color: var(--blackgroud-head-line);
+    background-color: var(--backgroud-head-line);
   }
 
   /* User navigation */
@@ -103,15 +104,23 @@
 .site-navigation a:focus,
 .user-navigation a:hover,
 .user-navigation a:focus {
-  background-color: var(--blackgroud-head-line);
+  background-color: var(--backgroud-head-line);
 }
 
 .slider {
+
+  margin-right: auto;
+  margin-left: auto;
   font-weight: 500;
   text-align: left;
-  background-color: var(--blackgroud-head-line);
+  background-color: var(--backgroud-head-line);
 }
 
+.slide {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1160px;
+}
 
 .slide h3 {
   margin: 0;
@@ -165,12 +174,12 @@
 .form-button {
 
   width: 260px;
-  background: var(--blackgroud-head-line);
+  background: var(--backgroud-head-line);
 }
 
 .page-list a:hover,
 .page-list a:focus {
-  background-color: var(--blackgroud-head-line);
+  background-color: var(--backgroud-head-line);
 }
 
 .page-list {
@@ -179,6 +188,8 @@
   line-height: 18px;
   list-style-type: none;
   text-decoration: none;
+  grid-column-start: 2;
+  grid-column-end: 4;
 
 }
 
@@ -189,7 +200,7 @@
 
 .page-item {
   width: 50px;
-  background: var(--blackgroud-head-line);
+  background: var(--backgroud-head-line);
 }
 .page-item-active {
   background: var(--basic-white);
@@ -218,7 +229,8 @@
 .services {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: 80px 140px 80px 140px;
+  margin: 80px auto 80px auto;
+  width: 1160px;
   padding: 0;
   list-style: none;
   column-gap: 100px;
@@ -242,8 +254,9 @@
 
   display: grid;
   grid-template-columns: 3fr 2fr;
-  margin: 80px 140px 80px 140px;
+  margin: 80px auto 80px auto;
   column-gap: 149px;
+  width: 1160px;
 
 
 }
@@ -300,14 +313,16 @@
 .companies {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin: 80px 140px 80px 140px;
-  padding: 0;
+  margin: 80px auto 80px auto;
   column-gap: 100px;
-
+  width: 1160px;
 }
 
 .info {
   background: var(--basic-white);
+  width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .point-name {
@@ -367,10 +382,6 @@
 
 /* Catalog */
 
-.container {
-  margin: 0 ;
-  list-style: none;
-}
 
 .catalog-container {
 
@@ -379,6 +390,9 @@
   align-content: start;
   grid-template-rows: 50px;
   gap: 40px;
+  width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .sort {
@@ -397,7 +411,7 @@
   font-weight: 500;
   font-size: 55px;
   line-height: 55px;
-  background-color: var(--blackgroud-head-line);
+  background-color: var(--backgroud-head-line);
 }
 
 .catalog-form-fieldset {
@@ -430,12 +444,12 @@
 .range-parameter {
   width: 80px;
   height: 38px;
-  background-color: var(--blackgroud-head-line);
+  background-color: var(--backgroud-head-line);
   border-radius: 3px;
 }
 
 .filter-list {
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 14px;
   line-height: 18px;
 }
@@ -465,13 +479,13 @@
 
 .product-card a:hover,
 .product-card a:focus {
-  background-color: var(--blackgroud-head-line);
+  background-color: var(--backgroud-head-line);
 }
 
 .product-banner {
   width: 360px;
   height: 231px;
-  background-color: var(--blackgroud-head-line);
+  background-color: var(--backgroud-head-line);
 }
 
 .cart-link {
@@ -486,13 +500,15 @@
   display: none;
 }
 
-.footer-bar .footer-friends {
+.footer-bar  {
   display: grid;
   grid-template-columns: 1fr 1fr ;
-
+  width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.footer-friends {
-
-  justify-self: center;
+.map {
+  height: 416px;
+  background-color: var(--basic-info-grey);
 }
