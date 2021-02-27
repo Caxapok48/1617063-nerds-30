@@ -33,10 +33,10 @@
     </header>
 
     <main class="container">
-
       <h1>Магазин готовых шаблонов</h1>
-      <section>
-        <h2>Фильтр товаров</h2>
+      <section class="catalog-container">
+      <section class="filters">
+        <h2 class="visually-hidden">Фильтр товаров</h2>
         <form method="get" action="https://echo.htmlacademy.ru/">
           <fieldset class="catalog-form-fieldset">
             <legend class="catalog-form-headline">Стоимость</legend>
@@ -90,9 +90,9 @@
           <button class="buttton form-button" type="submit">Показать</button>
         </form>
       </section>
-        <h2>Примеры продукции</h2>
-        <div>
-          <p class="catalog-form-headline">Сортировать</p>
+        <h2 class="visually-hidden">Примеры продукции</h2>
+          <div class="sort">
+           <p class="catalog-form-headline">Сортировать</p>
             <ul class="filter-list">
               <li class="filter-item filter-item-active"><a>по цене</a></li>
               <li class="filter-item"><a>по типу</a></li>
@@ -164,6 +164,7 @@
               <button class="button button-card" type="button">9 900 ₽</button>
            </div>
          </article>
+        </section>
         <ul class="page-list">
           <li class="page-item page-item-active"><a>1</a></li>
           <li class="page-item"><a href="#">2</a></li>

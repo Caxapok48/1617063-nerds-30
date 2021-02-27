@@ -218,7 +218,7 @@
 .services {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: 80px 0 80px 0;
+  margin: 80px 140px 80px 140px;
   padding: 0;
   list-style: none;
   column-gap: 100px;
@@ -242,6 +242,8 @@
 
   display: grid;
   grid-template-columns: 3fr 2fr;
+  margin: 80px 140px 80px 140px;
+  column-gap: 149px;
 
 
 }
@@ -293,6 +295,15 @@
   font-size: 45px;
   line-height: 64px;
   color: var(--basic-black);
+}
+
+.companies {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 80px 140px 80px 140px;
+  padding: 0;
+  column-gap: 100px;
+
 }
 
 .info {
@@ -357,12 +368,32 @@
 /* Catalog */
 
 .container {
-  margin: 0 auto;
+  margin: 0 ;
   list-style: none;
+}
+
+.catalog-container {
+
+  display: grid;
+  grid-template-columns: 260px 1fr 1fr;
+  align-content: start;
+  grid-template-rows: 50px;
+  gap: 40px;
+}
+
+.sort {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.filters {
+  grid-row-start: 1;
+  grid-row-end: 5;
 }
 
 .container h1 {
   margin: 0;
+  text-align: center;
   font-weight: 500;
   font-size: 55px;
   line-height: 55px;
@@ -451,3 +482,17 @@
   height: 100%;
 }
 
+.visually-hidden {
+  display: none;
+}
+
+.footer-bar .footer-friends {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+
+}
+
+.footer-friends {
+
+  justify-self: center;
+}
