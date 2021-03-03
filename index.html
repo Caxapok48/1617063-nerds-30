@@ -13,7 +13,7 @@
       <nav class="main-navigation">
         <div class="main-navigation-wrapper">
           <a class="main-header-logo">
-            <img src="img/index-logo.svg" width="160" height="66"
+            <img src="img/nerd-logo.svg" width="160" height="66"
             alt="Логотип дизайн студии «Нердс»">
           </a>
           <ul class="site-navigation">
@@ -82,7 +82,7 @@
             </ul>
           </div>
           <div class="about-right">
-            <img src="img-logo.jpg" width="360" height="208" alt="Логотип Нердс">
+            <img src="img/nerds-illustration.png" width="360" height="208" alt="Логотип Нердс">
             <p>С 2004 года любим точность во всем:</p>
             <table>
               <tr class="parameter">
@@ -135,7 +135,7 @@
         <button class="modal-close" type="button">Закрыть</button>
       </div>
       <div class="footer-bar">
-        <ul>
+        <ul class="social">
           <li>
             <a class="social-button" href="#">
               <img src="img/icons/icon-vk.svg" width="27" height="15" alt="Вконтакте">
@@ -160,29 +160,29 @@
     </footer>
     <section class="modal modal-connection">
       <h2 class="connection-title">Напишите нам</h2>
-      <form class="connection-form" action=https://echo.htmlacademy.ru method="get">
-
-        <p class="connection-item">
-          <label for="connection-item">Имя Фамилия</label>
-          <input id="connection-name" type="text" name="name" placeholder="Имя Фамилия">
-        </p>
-
-        <p class="connection-item">
-          <label for="connection-item">Логин</label>
-          <input id="connection-name" type="email" name="login" placeholder="email@example.com">
-        </p>
-
-        <p class="connection-item">
-          <label for="connection-item">Текст письма</label>
-          <textarea id="connection-name" name="text" placeholder="В свободной форме">
-          </textarea>
-        </p>
-
-        <button class="button connection-form-button" type="submit">Отправить</button>
-      </form>
       <button class="modal-close" type="button">
         <img src="img/icon-close.svg" width="21" height="21" alt="Закрыть">
       </button>
+      <form class="connection-form" action=https://echo.htmlacademy.ru method="get">
+        <div class="popap">
+          <p class="connection-item">
+            <label for="connection-item">Ваше имя:</label>
+            <input id="connection-name" type="text" name="name" placeholder="Имя Фамилия">
+          </p>
+
+          <p class="connection-item">
+            <label for="connection-item">Ваш email:</label>
+            <input id="connection-name" type="email" name="login" placeholder="email@example.com">
+          </p>
+
+          <p class="connection-item">
+            <label for="connection-item">Текст письма</label>
+            <textarea id="connection-name" name="text" placeholder="В свободной форме">
+            </textarea>
+          </p>
+        </div>
+        <button class="button connection-form-button" type="submit">Отправить</button>
+      </form>
     </section>
   </body>
 </html>
