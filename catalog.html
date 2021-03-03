@@ -23,10 +23,10 @@
             <li><a href="blank.html">Контакты</a></li>
           </ul>
             <div class="user-navigation">
-              <a href="blank.html">
+              <a class="user-basket" href="blank.html">
                 <img src="img/icons/cart-icon.svg" width="15" height="11" alt="Корзина">
+                <p>Корзина</p>
               </a>
-              <a href="blank.html">Корзина</a>
             </div>
         </div>
       </nav>
@@ -217,29 +217,29 @@
     </footer>
     <section class="modal modal-connection">
       <h2 class="connection-title">Напишите нам</h2>
-      <form class="connection-form" action="https://echo.htmlacademy.ru" method="get">
+      <button class="modal-close" type="button">
+        <img src="img/icons/icon-close.svg" width="21" height="21" alt="Закрыть">
+      </button>
+      <form class="connection-form" action=https://echo.htmlacademy.ru method="get">
+        <div class="connection-form-wrapper">
+          <p class="connection-item connection-item-left">
+            <label for="connection-item">Ваше имя:</label>
+            <input id="connection-name" type="text" name="name" placeholder="Имя Фамилия">
+          </p>
 
-        <p class="connection-item">
-          <label for="connection-name">Имя Фамилия</label>
-          <input id="connection-name" type="text" name="name" placeholder="Имя Фамилия">
-        </p>
+          <p class="connection-item connection-item-right">
+            <label for="connection-item">Ваш email:</label>
+            <input id="connection-name" type="email" name="login" placeholder="email@example.com">
+          </p>
 
-        <p class="connection-item">
-          <label for="connection-login">Логин</label>
-          <input id="connection-login" type="email" name="login" placeholder="email@example.com">
-        </p>
-
-        <p class="connection-item">
-          <label for="connection-text">Текст письма</label>
-          <textarea id="connection-text" name="text" placeholder="В свободной форме">
-          </textarea>
-        </p>
-
+          <p class="connection-item connection-item-bottom">
+            <label for="connection-item">Текст письма</label>
+            <textarea id="connection-name" name="text" placeholder="В свободной форме">
+            </textarea>
+          </p>
+        </div>
         <button class="button connection-form-button" type="submit">Отправить</button>
       </form>
-      <button class="modal-close" type="button">
-        <img src="img/icon-close.svg" width="21" height="21" alt="Закрыть">
-      </button>
     </section>
   </body>
 </html>
