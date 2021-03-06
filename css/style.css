@@ -478,7 +478,7 @@ margin-right: 0;
 .catalog-container {
 
   display: grid;
-  grid-template-columns: 260px 1fr 1fr;
+  grid-template-columns: 260px 360px 360px;
   align-content: start;
   grid-template-rows: 50px;
   gap: 40px;
@@ -500,7 +500,7 @@ margin-right: 0;
 }
 
 .filters {
-
+  margin-right: ;
   grid-row-start: 1;
   grid-row-end: 5;
 }
@@ -578,6 +578,12 @@ margin-right: 0;
   color: var(--vector-black);
 }
 
+.product-card {
+
+  width: 359px;
+
+}
+
 .product-card h3  {
   width: 360px;
   font-weight: 700;
@@ -600,7 +606,6 @@ margin-right: 0;
 .product-card button {
   margin-left: 80px;
   margin-right: 80px;
-  vertical-align: bottom;
 
 }
 
