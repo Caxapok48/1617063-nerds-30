@@ -71,6 +71,7 @@
     line-height: 30px;
     color: var(--basic-black);
     background-color: var(--backgroud-head-line);
+
   }
 
   .main-navigation-wrapper {
@@ -105,6 +106,10 @@
 
   }
 
+  .user-navigation p {
+    margin-left: 25px;
+  }
+
   .user-basket {
 
    display: flex;
@@ -131,6 +136,8 @@
   margin-left: auto;
   font-weight: 500;
   text-align: left;
+  height: 431px;
+  text-transform: none;
   background-color: var(--backgroud-head-line);
 }
 
@@ -163,6 +170,7 @@
   color: var(--basic-white);
   background: var(--basic-button-line);
   border-radius: 3px;
+  text-transform: uppercase;
 }
 
 .button-red {
@@ -192,7 +200,9 @@
 .form-button {
 
   width: 260px;
+  height: 50px;
   background: var(--backgroud-head-line);
+  text-transform: uppercase;
 }
 
 .page-list a:hover,
@@ -237,6 +247,7 @@
 
 .button-card {
   width: 200px;
+  vertical-align: bottom;
 }
 
 .button a {
@@ -254,7 +265,7 @@
 .services {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: 80px auto 80px auto;
+  margin: 100px auto 100px auto;
   width: 1160px;
   padding: 0;
   list-style: none;
@@ -262,17 +273,23 @@
 }
 
 .services h3{
-  font-weight: 700px;
+  margin-top: 25px;
+  font-weight: 700;
   font-size: 24px;
   line-height: 30px;
   color: var(--basic-black);
 }
 
 .services p {
+  margin-top: 16px;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: var(--basic-dark-grey);
+  text-transform: none;
+}
+.services button {
+  margin-top: 32px;
 }
 
 .about {
@@ -287,7 +304,7 @@
 }
 
 .about h3 {
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 16px;
   line-height: 24px;
   color: var(--basic-dark-grey);
@@ -298,6 +315,7 @@
   font-size: 16px;
   line-height: 24px;
   color: var(--basic-dark-grey);
+  text-transform: none;
 }
 
 .about p b {
@@ -305,6 +323,7 @@
   font-size: 45px;
   line-height: 45px;
   color: var(--basic-black);
+  text-transform: none;
 }
 
 .about-item {
@@ -312,6 +331,8 @@
   font-size: 16px;
   line-height: 24px;
   color: var(--basic-dark-grey);
+  text-transform: none;
+  list-style: none;
 }
 
 .about-right p {
@@ -322,18 +343,20 @@
 }
 
 .parameter {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 18px;
-  color: var(--basic-dark-grey);
-}
-
-.meaning {
   font-weight: bold;
   font-size: 45px;
   line-height: 64px;
   color: var(--basic-black);
 }
+
+.meaning {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--basic-dark-grey);
+  text-transform: none;
+}
+
 
 .companies {
   display: grid;
@@ -362,6 +385,11 @@
   font-size: 16px;
   line-height: 18px;
   color: var(--basic-info-grey);
+  text-transform: none;
+}
+
+.footer-friends {
+  text-transform: none;
 }
 
 .be-friends {
@@ -383,6 +411,7 @@
 
   width: 760px;
   background: var(--basic-white);
+  text-transform: none;
 }
 
 
@@ -456,6 +485,7 @@ margin-right: 0;
   width: 1160px;
   margin-left: auto;
   margin-right: auto;
+
 }
 
 .sort {
@@ -477,11 +507,15 @@ margin-right: 0;
 
 .container h1 {
   margin: 0;
+  padding-top: 87px;
   text-align: center;
   font-weight: 500;
   font-size: 55px;
   line-height: 55px;
   background-color: var(--backgroud-head-line);
+  height: 163px;
+  text-transform: none;
+  margin-bottom: 55px;
 }
 
 .catalog-form-fieldset {
@@ -499,13 +533,15 @@ margin-right: 0;
 }
 
 .radio-label, .checkbox-label {
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 16px;
   line-height: 20px;
+  text-transform: none;
+
 }
 
 .range {
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 16px;
   line-height: 22px;
   color: var(--basic-dark-grey);
@@ -547,6 +583,8 @@ margin-right: 0;
   font-weight: 700;
   font-size: 18px;
   line-height: 30px;
+  text-align: center;
+  margin-bottom: 12px;
 }
 
 .product-card p  {
@@ -555,6 +593,15 @@ margin-right: 0;
   font-size: 16px;
   line-height: 18px;
   color: var(--basic-info-grey);
+  text-transform: none;
+  text-align: center;
+}
+
+.product-card button {
+  margin-left: 80px;
+  margin-right: 80px;
+  vertical-align: bottom;
+
 }
 
 .product-card a:hover,
