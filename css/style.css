@@ -76,8 +76,8 @@
     color: var(--basic-black);
     background-color: var(--backgroud-head-line);
     text-transform: uppercase;
-    height: 114px;
-    padding-top: 75px;
+    height: 65px;
+    padding-top: 49px;
 
   }
 
@@ -86,6 +86,7 @@
     grid-template-columns: min-content 1fr min-content;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 9px;
     width: 1160px;
 
   }
@@ -95,10 +96,13 @@
     list-style: none;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-left: 202px;
     margin-right: 246px;
     padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 12px;
   }
   .site-navigation-current a:not([href]) {
     background-color: var(--backgroud-head-line);
@@ -107,6 +111,7 @@
   .user-navigation {
 
     align-items: center;
+    padding-top: 12px;
 
   }
 
@@ -138,9 +143,10 @@
 
   margin-right: auto;
   margin-left: auto;
+  padding-bottom: 75px;
   font-weight: 500;
   text-align: left;
-  height: 431px;
+  height: 356px;
   background-color: var(--backgroud-head-line);
 }
 
@@ -152,6 +158,7 @@
 
 .slide h3 {
   margin: 0;
+  padding-top: 79px;
   font-weight: 500;
   font-size: 55px;
   line-height: 55px;
@@ -159,6 +166,9 @@
 }
 
 .slide p {
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -174,6 +184,15 @@
   background: var(--basic-button-line);
   border-radius: 3px;
   text-transform: uppercase;
+}
+
+
+.button-slide {
+  margin-top: 38px;
+
+  width: 240px;
+  height: 50px;
+
 }
 
 .button-red {
@@ -265,10 +284,21 @@
 }
 /* Services */
 
+.services img {
+  display: block;
+  width: 300px;
+  height: 146px;
+}
+.services-about {
+
+
+}
+
+
 .services {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin: 100px auto 100px auto;
+  grid-template-columns: 300px 300px 300px;
+  margin: 80px auto 80px auto;
   width: 1160px;
   padding: 0;
   list-style: none;
@@ -305,7 +335,7 @@ display: block;
 .about {
 
   display: grid;
-  grid-template-columns: 3fr 2fr;
+  grid-template-columns: 651px 360px;
   margin: 80px auto 80px auto;
   column-gap: 149px;
   width: 1160px;
@@ -314,6 +344,8 @@ display: block;
 }
 
 .about h3 {
+  margin-top: 40px;
+  margin-bottom: 0;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
@@ -321,7 +353,13 @@ display: block;
   text-transform: uppercase;
 }
 
-.about-left p {
+
+.about-left {
+  margin-top: 80px;
+}
+.about-pride {
+  margin-top: 0;
+  margin-bottom: 0;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
@@ -329,7 +367,12 @@ display: block;
 
 }
 
+.about-pure {
+margin-top: 32px;
+margin-bottom: 0;;
+}
 .about p b {
+  margin-bottom: 0;
   font-weight: 500;
   font-size: 45px;
   line-height: 45px;
@@ -338,6 +381,8 @@ display: block;
 }
 
 .about-item {
+  margin-top: 23px;
+  margin-bottom: 23px;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
@@ -346,7 +391,14 @@ display: block;
   list-style: none;
 }
 
+.about-right img {
+  margin-top: 39px;
+}
+
 .about-right p {
+  margin-top: 35px;
+  margin-bottom: 28px;
+  margin-left: 15px;
   font-weight: bold;
   font-size: 16px;
   line-height: 24px;
@@ -355,7 +407,9 @@ display: block;
 }
 
 .parameter {
+  text-align: left;
   font-weight: bold;
+  margin-bottom: 11px;
   font-size: 45px;
   line-height: 64px;
   color: var(--basic-black);
@@ -366,16 +420,26 @@ display: block;
   font-size: 16px;
   line-height: 18px;
   color: var(--basic-dark-grey);
-
+  margin-bottom: 75px;
 }
 
 
 .companies {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin: 80px auto 80px auto;
-  column-gap: 100px;
+  grid-template-columns: 298px 298px 298px 298px;
+  margin: 100px auto 80px auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 1160px;
+}
+
+.companies img {
+
+  display: block;
+}
+
+.companies a {
+  margin: auto;
 }
 
 .info {
@@ -508,14 +572,14 @@ width: 100%;
 }
 
 .filters {
-
+  list-style: none;
   grid-row-start: 1;
   grid-row-end: 5;
 }
 
 .container h1 {
   margin: 0;
-  padding-top: 87px;
+  padding-top: 83px;
   text-align: center;
   font-weight: 500;
   font-size: 55px;
@@ -530,14 +594,16 @@ width: 100%;
   border: none;
   font-weight: normal;
   color: var(--basic-dark-grey);
+}
 
+.catalog-form-fieldset ul {
+  list-style: none;
 }
 
 .catalog-form-headline {
   font-weight: 700;
   font-size: 18px;
   line-height: 30px;
-  list-style-type: none;
   text-transform: uppercase;
 }
 
