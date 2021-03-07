@@ -53,6 +53,11 @@
     margin-bottom: 0;
   }
 
+  .main-header-logo {
+    width: 160px;
+    height: 66px;
+  }
+
 
   a {
     text-decoration: none;
@@ -272,6 +277,7 @@
 
 .services h3{
   margin-top: 25px;
+  margin-bottom: 0;
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
@@ -281,6 +287,7 @@
 
 .services p {
   margin-top: 16px;
+  margin-bottom: 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -289,6 +296,10 @@
 }
 .services button {
   margin-top: 32px;
+}
+
+.services img {
+display: block;
 }
 
 .about {
@@ -475,7 +486,7 @@ width: 100%;
 .catalog-container {
 
   display: grid;
-  grid-template-columns: 260px 360px 360px;
+  grid-template-columns: 360px 360px 360px;
   align-content: start;
   grid-template-rows: 50px;
   gap: 40px;
