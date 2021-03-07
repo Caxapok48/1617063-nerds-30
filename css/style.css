@@ -239,9 +239,8 @@
 .page-list {
   display: flex;
   padding-left: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-
+  margin-top: 20px;
+  margin-bottom: 0px;
   font-weight: 500;
   font-size: 16px;
   line-height: 18px;
@@ -258,9 +257,13 @@
 
 
 .page-item {
+
+  width: 50px;
+  height: 50px;
   margin-right: 11px;
   margin-left: 0;
   width: 50px;
+
   background: var(--backgroud-head-line);
 }
 .page-item-active {
@@ -728,8 +731,13 @@ width: 100%;
 .product-card button {
   margin-left: 80px;
   margin-right: 80px;
-
 }
+
+.product-card img {
+
+  display: block;
+}
+
 
 .product-card a:hover,
 .product-card a:focus {
@@ -765,6 +773,12 @@ width: 100%;
 
 .map {
   margin-top: 80px;
+  height: 416px;
+  background-color: var(--basic-info-grey);
+}
+
+.catalog-map {
+  margin-top: 60px;
   height: 416px;
   background-color: var(--basic-info-grey);
 }
